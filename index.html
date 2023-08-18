@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h2>Завдання 1</h2>
+            <p class="condition">Виведіть # стільки разів, скільки вказав користувач</p>
+            <p>Введіть число і натисніть "Виконати"</p>
+            <input type="number" id="task1-input" min="1" max="50">
+            <button onclick="runTask1()">Виконати</button>
+            <p>Результат:</p>
+            <p id="task1-output"></p>
+        </div>
+        <div>
+            <h2>Завдання 2</h2>
+            <p class="condition">Користувач ввів число, а на екран було виведено всі числа: від введеного до 0</p>
+            <p>Введіть число і натисніть "Виконати"</p>
+            <input type="number" id="task2-input" min="1" max="50">
+            <button onclick="runTask2()">Виконати</button>
+            <p>Результат:</p>
+            <p id="task2-output"></p>
+        </div>
+        <div>
+            <h2>Завдання 3</h2>
+            <p class="condition">Запросіть число та ступінь. Зведіть число у вказаний ступінь та виведіть результат</p>
+            <p>Введіть число, ступінь і натисніть "Виконати"</p>
+            <input type="number" id="task3-input1" min="1" max="50">
+            <input type="number" id="task3-input2" min="1" max="50">
+            <button onclick="runTask3()">Виконати</button>
+            <p>Результат:</p>
+            <p id="task3-output"></p>
+        </div>
+        <div>
+            <h2>Завдання 4</h2>
+            <p class="condition">Запросіть 2 числа і знайдіть всі спільні дільники</p>
+            <p>Введіть два числа і натисніть "Виконати"</p>
+            <input type="number" id="task4-input1" min="1" max="50">
+            <input type="number" id="task4-input2" min="1" max="50">
+            <button onclick="runTask4()">Виконати</button>
+            <p>Результат:</p>
+            <p id="task4-output"></p>
+        </div>
+        <div>
+            <h2>Завдання 5</h2>
+            <p class="condition">Підрахуйте факторіал числа, введеного користувачем</p>
+            <p>Введіть число і натисніть "Виконати"</p>
+            <input type="number" id="task5-input" min="1" max="50">
+            <button onclick="runTask5()">Виконати</button>
+            <p>Результат:</p>
+            <p id="task5-output"></p>
+        </div>
+        <div>
+            <h2>Завдання 6</h2>
+            <p class="condition">Запропонуйте користувачеві розв’язати приклад 2 + 2 * 2, доки він не надасть правильну відповідь</p>
+            <p>Натисніть "Виконати"</p>
+            <button onclick="runTask6()">Виконати</button>
+        </div>
+        <div>
+            <h2>Завдання 7</h2>
+            <p class="condition">Діліть число 1000 на 2, доки не отримаєте число менше, ніж 50. Виведіть отримане число і скільки зробили поділів</p>
+            <p>Натисніть "Виконати"</p>
+            <button onclick="runTask7()">Виконати</button>
+            <p>Результат:</p>
+            <p id="task7-output"></p>
+        </div>
+        <div>
+            <h2>Завдання 8</h2>
+            <p class="condition">Виведіть усі числа від 1 до 100, які кратні числу зазначеному користувачем</p>
+            <p>Введіть число і натисніть "Виконати"</p>
+            <input type="number" id="task8-input" min="1" max="100">
+            <button onclick="runTask8()">Виконати</button>
+            <p>Результат:</p>
+            <p id="task8-output"></p>
+        </div>
+        <div>
+            <h2>Завдання 9</h2>
+            <p class="condition">Виведіть кожен 4-ий елемент із зазначеного користувачем діапазону. Користувач вказує мінімальне та максимальне значення діапазону</p>
+            <p>Введіть мінімальне та максимальне значення діапазону та натисніть "Виконати"</p>
+            <input type="number" id="task9-input1" min="1" max="50">
+            <input type="number" id="task9-input2" min="1" max="50">
+            <button onclick="runTask9()">Виконати</button>
+            <p>Результат:</p>
+            <p id="task9-output"></p>
+        </div>
+        <div>
+            <h2>Завдання 10</h2>
+            <p class="condition">Запросіть число і перевірте, чи просте воно. Просте число ділиться без залишку тільки на себе і на 1</p>
+            <p>Введіть число і натисніть "Виконати"</p>
+            <input type="number" id="task10-input" min="2" max="50">
+            <button onclick="runTask10()">Виконати</button>
+            <p>Результат:</p>
+            <p id="task10-output"></p>
+        </div>
+    </div>
+    <script src="file.js"></script>
+</body>
+</html>

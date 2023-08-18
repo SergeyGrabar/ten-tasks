@@ -1,0 +1,34 @@
+.container{
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 10px;
+    margin: 20px;
+    color: #fff;
+}
+.container>div{
+    background-color: #636f8e;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+.container>div>p{
+    text-align: justify;
+}
+.container>div>h2 {
+    text-align: center;
+}
+.container>div>input{
+    width: 60px;
+}
+button{
+    background-color: rgb(42, 142, 165);
+    color: #fff;
+}
+button:hover{
+    cursor: pointer;
+}
+.condition{
+    border-bottom: 1px solid #fff;
+}
